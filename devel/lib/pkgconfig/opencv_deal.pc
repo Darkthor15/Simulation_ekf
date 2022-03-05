@@ -1,0 +1,8 @@
+prefix=/home/vishal/ws_3/devel
+
+Name: opencv_deal
+Description: Description of opencv_deal
+Version: 0.0.0
+Cflags: -I/home/vishal/ws_3/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,34 @@
+digraph G {
+"base_link" -> "gps_link"[label="Broadcaster: /bl_gps\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 5486.880 sec old)\nBuffer length: 0.000 sec\n"];
+"odom" -> "base_link"[label="Broadcaster: /ekf_se\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 5486.880 sec old)\nBuffer length: 0.000 sec\n"];
+"base_footprint" -> "camera_back_optical"[label="Broadcaster: /state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 5486.880 sec old)\nBuffer length: 0.000 sec\n"];
+"camera_back_optical" -> "camera_back"[label="Broadcaster: /state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 5486.880 sec old)\nBuffer length: 0.000 sec\n"];
+"base_footprint" -> "camera_front_optical"[label="Broadcaster: /state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 5486.880 sec old)\nBuffer length: 0.000 sec\n"];
+"camera_front_optical" -> "camera_front"[label="Broadcaster: /state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 5486.880 sec old)\nBuffer length: 0.000 sec\n"];
+"base_footprint" -> "camera_left_optical"[label="Broadcaster: /state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 5486.880 sec old)\nBuffer length: 0.000 sec\n"];
+"camera_left_optical" -> "camera_left"[label="Broadcaster: /state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 5486.880 sec old)\nBuffer length: 0.000 sec\n"];
+"base_footprint" -> "camera_right_optical"[label="Broadcaster: /state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 5486.880 sec old)\nBuffer length: 0.000 sec\n"];
+"camera_right_optical" -> "camera_right"[label="Broadcaster: /state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 5486.880 sec old)\nBuffer length: 0.000 sec\n"];
+"base_footprint" -> "gps"[label="Broadcaster: /state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 5486.880 sec old)\nBuffer length: 0.000 sec\n"];
+"base_footprint" -> "imu"[label="Broadcaster: /state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 5486.880 sec old)\nBuffer length: 0.000 sec\n"];
+"os1_sensor" -> "os1_imu"[label="Broadcaster: /state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 5486.880 sec old)\nBuffer length: 0.000 sec\n"];
+"base_footprint" -> "os1_sensor"[label="Broadcaster: /state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 5486.880 sec old)\nBuffer length: 0.000 sec\n"];
+"os1_sensor" -> "os1_lidar"[label="Broadcaster: /state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 5486.880 sec old)\nBuffer length: 0.000 sec\n"];
+"odom" -> "utm"[label="Broadcaster: /navsat_transform\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 5486.880 sec old)\nBuffer length: 0.000 sec\n"];
+"map" -> "odom"[label="Broadcaster: /ekf_se_map\nAverage rate: 30.162 Hz\nMost recent transform: 5486.840 ( 0.040 sec old)\nBuffer length: 4.940 sec\n"];
+"base_link" -> "link_steer_fl"[label="Broadcaster: /state_publisher\nAverage rate: 74.660 Hz\nMost recent transform: 5486.842 ( 0.038 sec old)\nBuffer length: 4.929 sec\n"];
+"base_link" -> "link_steer_fr"[label="Broadcaster: /state_publisher\nAverage rate: 74.660 Hz\nMost recent transform: 5486.842 ( 0.038 sec old)\nBuffer length: 4.929 sec\n"];
+"link_steer_fl" -> "link_wheel_fl"[label="Broadcaster: /state_publisher\nAverage rate: 74.660 Hz\nMost recent transform: 5486.842 ( 0.038 sec old)\nBuffer length: 4.929 sec\n"];
+"link_steer_fr" -> "link_wheel_fr"[label="Broadcaster: /state_publisher\nAverage rate: 74.660 Hz\nMost recent transform: 5486.842 ( 0.038 sec old)\nBuffer length: 4.929 sec\n"];
+"base_link" -> "link_wheel_rl"[label="Broadcaster: /state_publisher\nAverage rate: 74.660 Hz\nMost recent transform: 5486.842 ( 0.038 sec old)\nBuffer length: 4.929 sec\n"];
+"base_link" -> "link_wheel_rr"[label="Broadcaster: /state_publisher\nAverage rate: 74.660 Hz\nMost recent transform: 5486.842 ( 0.038 sec old)\nBuffer length: 4.929 sec\n"];
+"base_link" -> "imu_link"[label="Broadcaster: /imulink_baslink_broadcaster\nAverage rate: 1.250 Hz\nMost recent transform: 5487.830 ( -0.950 sec old)\nBuffer length: 4.000 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 5486.880"[ shape=plaintext ] ;
+ }->"base_footprint";
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 5486.880"[ shape=plaintext ] ;
+ }->"map";
+}

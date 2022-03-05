@@ -1,0 +1,2 @@
+set(robot_localization_MESSAGE_FILES "")
+set(robot_localization_SERVICE_FILES "/home/vishal/ws_3/src/robot_localization/srv/GetState.srv;/home/vishal/ws_3/src/robot_localization/srv/SetDatum.srv;/home/vishal/ws_3/src/robot_localization/srv/SetPose.srv;/home/vishal/ws_3/src/robot_localization/srv/SetUTMZone.srv;/home/vishal/ws_3/src/robot_localization/srv/ToggleFilterProcessing.srv;/home/vishal/ws_3/src/robot_localization/srv/FromLL.srv;/home/vishal/ws_3/src/robot_localization/srv/ToLL.srv")

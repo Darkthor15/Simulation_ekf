@@ -1,0 +1,8 @@
+prefix=/home/vishal/ws_3/install
+
+Name: depthGet
+Description: Description of depthGet
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 
