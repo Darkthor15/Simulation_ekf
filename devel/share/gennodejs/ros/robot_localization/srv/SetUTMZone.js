@@ -51,7 +51,7 @@ class SetUTMZoneRequest {
 
   static getMessageSize(object) {
     let length = 0;
-    length += object.utm_zone.length;
+    length += _getByteLength(object.utm_zone);
     return length + 4;
   }
 

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "/home/vishal/ws_3/devel/lib/python3/dist-packages/velodyne_msgs/msg/_VelodynePacket.py"
+  "/home/vishal/ws_3/devel/lib/python3/dist-packages/velodyne_msgs/msg/_VelodyneScan.py"
+  "/home/vishal/ws_3/devel/lib/python3/dist-packages/velodyne_msgs/msg/__init__.py"
   "CMakeFiles/velodyne_msgs_generate_messages_py"
-  "/home/vishal/ws_3/devel/lib/python2.7/dist-packages/velodyne_msgs/msg/_VelodynePacket.py"
-  "/home/vishal/ws_3/devel/lib/python2.7/dist-packages/velodyne_msgs/msg/_VelodyneScan.py"
-  "/home/vishal/ws_3/devel/lib/python2.7/dist-packages/velodyne_msgs/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

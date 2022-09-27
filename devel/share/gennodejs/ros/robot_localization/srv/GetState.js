@@ -62,7 +62,7 @@ class GetStateRequest {
 
   static getMessageSize(object) {
     let length = 0;
-    length += object.frame_id.length;
+    length += _getByteLength(object.frame_id);
     return length + 12;
   }
 

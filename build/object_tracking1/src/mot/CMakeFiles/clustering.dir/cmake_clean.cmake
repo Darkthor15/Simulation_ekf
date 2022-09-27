@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/clustering.dir/src/clustering.cpp.o"
-  "/home/vishal/ws_3/devel/lib/mot/clustering.pdb"
   "/home/vishal/ws_3/devel/lib/mot/clustering"
+  "/home/vishal/ws_3/devel/lib/mot/clustering.pdb"
+  "CMakeFiles/clustering.dir/src/clustering.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

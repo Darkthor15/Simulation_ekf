@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/velodyne_input.dir/input.cc.o"
   "/home/vishal/ws_3/devel/lib/libvelodyne_input.pdb"
   "/home/vishal/ws_3/devel/lib/libvelodyne_input.so"
+  "CMakeFiles/velodyne_input.dir/input.cc.o"
 )
 
 # Per-language clean rules from dependency scanning.

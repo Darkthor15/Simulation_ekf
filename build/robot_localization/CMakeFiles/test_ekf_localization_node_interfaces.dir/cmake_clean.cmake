@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test_ekf_localization_node_interfaces.dir/test/test_ekf_localization_node_interfaces.cpp.o"
-  "/home/vishal/ws_3/devel/lib/robot_localization/test_ekf_localization_node_interfaces.pdb"
   "/home/vishal/ws_3/devel/lib/robot_localization/test_ekf_localization_node_interfaces"
+  "/home/vishal/ws_3/devel/lib/robot_localization/test_ekf_localization_node_interfaces.pdb"
+  "CMakeFiles/test_ekf_localization_node_interfaces.dir/test/test_ekf_localization_node_interfaces.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/velodyne_msgs_generate_messages_lisp"
   "/home/vishal/ws_3/devel/share/common-lisp/ros/velodyne_msgs/msg/VelodynePacket.lisp"
   "/home/vishal/ws_3/devel/share/common-lisp/ros/velodyne_msgs/msg/VelodyneScan.lisp"
+  "CMakeFiles/velodyne_msgs_generate_messages_lisp"
 )
 
 # Per-language clean rules from dependency scanning.

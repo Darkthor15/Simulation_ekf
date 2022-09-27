@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test_ros_robot_localization_listener.dir/test/test_ros_robot_localization_listener.cpp.o"
-  "/home/vishal/ws_3/devel/lib/robot_localization/test_ros_robot_localization_listener.pdb"
   "/home/vishal/ws_3/devel/lib/robot_localization/test_ros_robot_localization_listener"
+  "/home/vishal/ws_3/devel/lib/robot_localization/test_ros_robot_localization_listener.pdb"
+  "CMakeFiles/test_ros_robot_localization_listener.dir/test/test_ros_robot_localization_listener.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

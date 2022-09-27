@@ -4,7 +4,7 @@
   <param name="min_range" type="double" value="0.9" />
   <param name="max_range" type="double" value="130.0" />
   <param name="view_direction" type="double" value="0.0" />
-  <param name="view_width" type="double" value="6.28318530718" />
+  <param name="view_width" type="double" value="6.283185307179586" />
   <param name="frame_id" type="str" value="map" />
   <param name="organize_cloud" type="bool" value="False" />
 </node>

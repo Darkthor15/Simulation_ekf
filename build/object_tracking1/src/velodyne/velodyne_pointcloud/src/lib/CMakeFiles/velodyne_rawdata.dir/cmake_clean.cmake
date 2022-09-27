@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/velodyne_rawdata.dir/rawdata.cc.o"
-  "CMakeFiles/velodyne_rawdata.dir/calibration.cc.o"
   "/home/vishal/ws_3/devel/lib/libvelodyne_rawdata.pdb"
   "/home/vishal/ws_3/devel/lib/libvelodyne_rawdata.so"
+  "CMakeFiles/velodyne_rawdata.dir/calibration.cc.o"
+  "CMakeFiles/velodyne_rawdata.dir/rawdata.cc.o"
 )
 
 # Per-language clean rules from dependency scanning.

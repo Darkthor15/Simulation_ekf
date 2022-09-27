@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/vishal/ws_3/install/lib;/home/vishal/catkin_ws2/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/vishal/ws_3/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(velodyne_laserscan_LIBRARIES ${velodyne_laserscan_LIBRARIES})
 
   _list_append_unique(velodyne_laserscan_LIBRARY_DIRS ${${velodyne_laserscan_dep}_LIBRARY_DIRS})
-  list(APPEND velodyne_laserscan_EXPORTED_TARGETS ${${velodyne_laserscan_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(velodyne_laserscan_EXPORTED_TARGETS ${${velodyne_laserscan_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

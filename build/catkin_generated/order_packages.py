@@ -2,4 +2,4 @@
 source_root_dir = '/home/vishal/ws_3/src'
 whitelisted_packages = ''.split(';') if '' != '' else []
 blacklisted_packages = ''.split(';') if '' != '' else []
-underlay_workspaces = '/home/vishal/catkin_ws2/devel;/opt/ros/melodic'.split(';') if '/home/vishal/catkin_ws2/devel;/opt/ros/melodic' != '' else []
+underlay_workspaces = '/opt/ros/noetic'.split(';') if '/opt/ros/noetic' != '' else []

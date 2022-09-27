@@ -1,8 +1,0 @@
-prefix=/home/vishal/ws_3/install
-
-Name: pcl_deal
-Description: Description of pcl_deal
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

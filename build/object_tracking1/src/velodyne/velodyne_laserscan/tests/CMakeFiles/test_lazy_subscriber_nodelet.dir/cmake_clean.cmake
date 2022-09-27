@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test_lazy_subscriber_nodelet.dir/lazy_subscriber.cpp.o"
-  "/home/vishal/ws_3/devel/lib/velodyne_laserscan/test_lazy_subscriber_nodelet.pdb"
   "/home/vishal/ws_3/devel/lib/velodyne_laserscan/test_lazy_subscriber_nodelet"
+  "/home/vishal/ws_3/devel/lib/velodyne_laserscan/test_lazy_subscriber_nodelet.pdb"
+  "CMakeFiles/test_lazy_subscriber_nodelet.dir/lazy_subscriber.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

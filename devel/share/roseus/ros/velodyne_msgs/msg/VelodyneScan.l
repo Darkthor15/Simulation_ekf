@@ -22,7 +22,7 @@
   (:init
    (&key
     ((:header __header) (instance std_msgs::Header :init))
-    ((:packets __packets) (let (r) (dotimes (i 0) (push (instance velodyne_msgs::VelodynePacket :init) r)) r))
+    ((:packets __packets) ())
     )
    (send-super :init)
    (setq _header __header)

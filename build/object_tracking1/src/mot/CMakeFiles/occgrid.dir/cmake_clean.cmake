@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/occgrid.dir/src/occgrid.cpp.o"
-  "/home/vishal/ws_3/devel/lib/mot/occgrid.pdb"
   "/home/vishal/ws_3/devel/lib/mot/occgrid"
+  "/home/vishal/ws_3/devel/lib/mot/occgrid.pdb"
+  "CMakeFiles/occgrid.dir/src/occgrid.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

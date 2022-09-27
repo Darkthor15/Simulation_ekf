@@ -2,7 +2,7 @@
 
 message(STATUS "velodyne_msgs: 2 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ivelodyne_msgs:/home/vishal/ws_3/src/object_tracking1/src/velodyne/velodyne_msgs/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ivelodyne_msgs:/home/vishal/ws_3/src/object_tracking1/src/velodyne/velodyne_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -42,7 +42,7 @@ _generate_msg_cpp(velodyne_msgs
 _generate_msg_cpp(velodyne_msgs
   "/home/vishal/ws_3/src/object_tracking1/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg"
   "${MSG_I_FLAGS}"
-  "/home/vishal/ws_3/src/object_tracking1/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/vishal/ws_3/src/object_tracking1/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/velodyne_msgs
 )
 
@@ -83,7 +83,7 @@ _generate_msg_eus(velodyne_msgs
 _generate_msg_eus(velodyne_msgs
   "/home/vishal/ws_3/src/object_tracking1/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg"
   "${MSG_I_FLAGS}"
-  "/home/vishal/ws_3/src/object_tracking1/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/vishal/ws_3/src/object_tracking1/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/velodyne_msgs
 )
 
@@ -124,7 +124,7 @@ _generate_msg_lisp(velodyne_msgs
 _generate_msg_lisp(velodyne_msgs
   "/home/vishal/ws_3/src/object_tracking1/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg"
   "${MSG_I_FLAGS}"
-  "/home/vishal/ws_3/src/object_tracking1/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/vishal/ws_3/src/object_tracking1/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/velodyne_msgs
 )
 
@@ -165,7 +165,7 @@ _generate_msg_nodejs(velodyne_msgs
 _generate_msg_nodejs(velodyne_msgs
   "/home/vishal/ws_3/src/object_tracking1/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg"
   "${MSG_I_FLAGS}"
-  "/home/vishal/ws_3/src/object_tracking1/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/vishal/ws_3/src/object_tracking1/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/velodyne_msgs
 )
 
@@ -206,7 +206,7 @@ _generate_msg_py(velodyne_msgs
 _generate_msg_py(velodyne_msgs
   "/home/vishal/ws_3/src/object_tracking1/src/velodyne/velodyne_msgs/msg/VelodyneScan.msg"
   "${MSG_I_FLAGS}"
-  "/home/vishal/ws_3/src/object_tracking1/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/vishal/ws_3/src/object_tracking1/src/velodyne/velodyne_msgs/msg/VelodynePacket.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/velodyne_msgs
 )
 
@@ -283,7 +283,7 @@ if(TARGET std_msgs_generate_messages_nodejs)
 endif()
 
 if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/velodyne_msgs)
-  install(CODE "execute_process(COMMAND \"/usr/bin/python2\" -m compileall \"${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/velodyne_msgs\")")
+  install(CODE "execute_process(COMMAND \"/usr/bin/python3\" -m compileall \"${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/velodyne_msgs\")")
   # install generated code
   install(
     DIRECTORY ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/velodyne_msgs

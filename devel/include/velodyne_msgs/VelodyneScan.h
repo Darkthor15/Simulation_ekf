@@ -95,16 +95,6 @@ namespace message_traits
 
 
 template <class ContainerAllocator>
-struct IsFixedSize< ::velodyne_msgs::VelodyneScan_<ContainerAllocator> >
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
-struct IsFixedSize< ::velodyne_msgs::VelodyneScan_<ContainerAllocator> const>
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
 struct IsMessage< ::velodyne_msgs::VelodyneScan_<ContainerAllocator> >
   : TrueType
   { };
@@ -112,6 +102,16 @@ struct IsMessage< ::velodyne_msgs::VelodyneScan_<ContainerAllocator> >
 template <class ContainerAllocator>
 struct IsMessage< ::velodyne_msgs::VelodyneScan_<ContainerAllocator> const>
   : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::velodyne_msgs::VelodyneScan_<ContainerAllocator> >
+  : FalseType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::velodyne_msgs::VelodyneScan_<ContainerAllocator> const>
+  : FalseType
   { };
 
 template <class ContainerAllocator>

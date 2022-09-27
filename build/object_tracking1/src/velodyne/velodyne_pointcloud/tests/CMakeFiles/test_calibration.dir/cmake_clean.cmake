@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test_calibration.dir/test_calibration.cpp.o"
-  "/home/vishal/ws_3/devel/lib/velodyne_pointcloud/test_calibration.pdb"
   "/home/vishal/ws_3/devel/lib/velodyne_pointcloud/test_calibration"
+  "/home/vishal/ws_3/devel/lib/velodyne_pointcloud/test_calibration.pdb"
+  "CMakeFiles/test_calibration.dir/test_calibration.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

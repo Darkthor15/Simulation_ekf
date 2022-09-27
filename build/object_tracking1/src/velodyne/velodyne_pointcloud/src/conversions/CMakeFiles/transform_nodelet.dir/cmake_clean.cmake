@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/transform_nodelet.dir/transform_nodelet.cc.o"
-  "CMakeFiles/transform_nodelet.dir/transform.cc.o"
-  "CMakeFiles/transform_nodelet.dir/pointcloudXYZIR.cc.o"
-  "CMakeFiles/transform_nodelet.dir/organized_cloudXYZIR.cc.o"
   "/home/vishal/ws_3/devel/lib/libtransform_nodelet.pdb"
   "/home/vishal/ws_3/devel/lib/libtransform_nodelet.so"
+  "CMakeFiles/transform_nodelet.dir/organized_cloudXYZIR.cc.o"
+  "CMakeFiles/transform_nodelet.dir/pointcloudXYZIR.cc.o"
+  "CMakeFiles/transform_nodelet.dir/transform.cc.o"
+  "CMakeFiles/transform_nodelet.dir/transform_nodelet.cc.o"
 )
 
 # Per-language clean rules from dependency scanning.

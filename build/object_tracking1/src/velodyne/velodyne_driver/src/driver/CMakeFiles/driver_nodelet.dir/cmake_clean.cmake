@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/driver_nodelet.dir/nodelet.cc.o"
-  "CMakeFiles/driver_nodelet.dir/driver.cc.o"
   "/home/vishal/ws_3/devel/lib/libdriver_nodelet.pdb"
   "/home/vishal/ws_3/devel/lib/libdriver_nodelet.so"
+  "CMakeFiles/driver_nodelet.dir/driver.cc.o"
+  "CMakeFiles/driver_nodelet.dir/nodelet.cc.o"
 )
 
 # Per-language clean rules from dependency scanning.

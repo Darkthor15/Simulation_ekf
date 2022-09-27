@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ukf_localization_nodelet.dir/src/ukf_localization_nodelet.cpp.o"
   "/home/vishal/ws_3/devel/lib/libukf_localization_nodelet.pdb"
   "/home/vishal/ws_3/devel/lib/libukf_localization_nodelet.so"
+  "CMakeFiles/ukf_localization_nodelet.dir/src/ukf_localization_nodelet.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

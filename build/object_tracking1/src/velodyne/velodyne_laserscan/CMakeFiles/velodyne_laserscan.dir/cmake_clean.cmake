@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/velodyne_laserscan.dir/src/velodyne_laserscan.cpp.o"
-  "CMakeFiles/velodyne_laserscan.dir/src/nodelet.cpp.o"
   "/home/vishal/ws_3/devel/lib/libvelodyne_laserscan.pdb"
   "/home/vishal/ws_3/devel/lib/libvelodyne_laserscan.so"
+  "CMakeFiles/velodyne_laserscan.dir/src/nodelet.cpp.o"
+  "CMakeFiles/velodyne_laserscan.dir/src/velodyne_laserscan.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.
